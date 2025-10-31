@@ -30,6 +30,7 @@ export default function NotaEditor() {
             <View style={estilos.modal}>
               <Text style={estilos.modalTitulo}>Criar nota</Text>
               <Text style={estilos.modalSubTitulo}>Conteúdo da nota</Text>
+             
               <TextInput 
               style={estilos.modalInput}
               onChangeText={novoTitulo => setTitulo(novoTitulo)}
@@ -49,7 +50,6 @@ export default function NotaEditor() {
               </View>
 
               <Text style={estilos.modalSubTitulo}>Conteúdo da nota</Text>
-
               <TextInput
                 style={estilos.modalInput}
                 multiline={true}
