@@ -1,5 +1,8 @@
 {
   "expoServerPort": 19000,
   "packagerPort": 19000,
-  "webpackServerPort": 19006
+  "webpackServerPort": 19006,
+  "expoServerNgrokUrl": "https://5b-gw2.anonymous.local-storage.exp.direct",
+  "packagerNgrokUrl": "https://5b-gw2.anonymous.local-storage.exp.direct",
+  "ngrokPid": 37876
 }

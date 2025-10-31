@@ -7,7 +7,7 @@ export function Nota() {
   
   return (
     <View style={style.cartao}>
-      <Text style={style.texto} numberOfLines={5}>Lorem ipsum</Text>
+      <Text style={style.texto} numberOfLines={5}>{item[1]}</Text>
     </View>
   )
 }
